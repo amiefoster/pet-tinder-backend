@@ -1,6 +1,6 @@
-class CreateMainUserProfile < ActiveRecord::Migration[6.1]
+class CreateMainUserProfiles < ActiveRecord::Migration[6.1]
   def change
-    create_table :main_user_profile do |t|
+    create_table :main_user_profiles do |t|
       t.string :name
       t.string :species 
       t.string :breed

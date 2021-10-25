@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2021_10_25_211036) do
     t.integer "pet_profile_id"
   end
 
-  create_table "main_user_profile", force: :cascade do |t|
+  create_table "main_user_profiles", force: :cascade do |t|
     t.string "name"
     t.string "species"
     t.string "breed"

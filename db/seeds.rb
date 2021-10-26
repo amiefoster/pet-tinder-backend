@@ -74,6 +74,8 @@ puts "creating the lucky single user"
 )
 end
 
+LikedPet.create(main_user_profile_id: 1, pet_profile_id: 1)
+
 puts "✅ Done seeding!"
 
 

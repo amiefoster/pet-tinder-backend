@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_26_153617) do
+ActiveRecord::Schema.define(version: 2021_10_26_225430) do
 
   create_table "liked_pets", force: :cascade do |t|
-    t.integer "main_user_id"
+    t.integer "main_user_profile_id"
     t.integer "pet_profile_id"
   end
 

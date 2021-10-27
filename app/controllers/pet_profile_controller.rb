@@ -7,8 +7,14 @@ class PetProfileController < Sinatra::Base
       all_pet_profiles.to_json
     end
 
+    #get one profile by id
+    get'/petprofiles/:id' do
+      single_pet_profile = PetProfile.find(params[:id])
+      single_pet_profile.to_json
+    end
+
     #update
-    patch 'petprofiles/:id/edit' do
+    patch '/petprofiles/:id/edit' do
         petProfile = PetProfile.find(params[:id])
 
         petProfile.update(user_like: params[:user_like])
@@ -17,7 +23,7 @@ class PetProfileController < Sinatra::Base
     end
 
     #delete
-    delete 'petprofiles/:id' do
+    delete '/petprofiles/:id' do
         petProfile = PetProfile.find(params[:id])
         petProfile.destroy
     end

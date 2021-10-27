@@ -15,7 +15,10 @@ puts "Fetching some puppers 🐕 "
     owner_name= Faker::Name.first_name 
     owner_age= rand(20..40)
     owner_hobby= Faker::Hobby.activity
-    image_url= Faker::LoremFlickr.image(size: "300x300", search_terms: ['dog'])
+    #image_url= Faker::LoremFlickr.image(size: "300x300", search_terms: ['dog'])
+    image_dim_1= rand(300..400)
+    image_dim_2= rand(300..400)
+    image_url="https://loremflickr.com/#{image_dim_1}/#{image_dim_2}/dog"
     age= rand(15)
     profile_like= [true, false].sample
 
@@ -41,7 +44,10 @@ puts "Begging some cats to join us on the couch 🐈 "
     owner_name= Faker::Name.first_name 
     owner_age= rand(20..40)
     owner_hobby= Faker::Hobby.activity
-    image_url= Faker::LoremFlickr.image(size: "300x300", search_terms: ['cat'])
+    #image_url= Faker::LoremFlickr.image(size: "300x300", search_terms: ['cat'])
+    image_dim_1= rand(300..400)
+    image_dim_2= rand(300..400)
+    image_url="https://loremflickr.com/#{image_dim_1}/#{image_dim_2}/cat"
     age= rand(20)
     profile_like= [true, false].sample
     PetProfile.create(

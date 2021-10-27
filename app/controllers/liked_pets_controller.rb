@@ -11,7 +11,7 @@ class LikedPetsController < Sinatra::Base
     end
 
     #adding profile to mutual likes via id
-    post 'mutuallikes' do
+    post '/mutuallikes' do
         mutualLike = LikedPet.create(main_user_profile_id: MainUserProfile.first.id, pet_profile_id: params[:pet_profile_id])
         mutualLike.to_json
     end

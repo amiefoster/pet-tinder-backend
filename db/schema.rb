@@ -10,11 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_26_225430) do
+ActiveRecord::Schema.define(version: 2021_10_28_183930) do
 
   create_table "liked_pets", force: :cascade do |t|
     t.integer "main_user_profile_id"
     t.integer "pet_profile_id"
+    t.string "name"
+    t.string "species"
+    t.string "breed"
+    t.integer "age"
+    t.string "owner_hobby"
+    t.string "image_url"
+    t.boolean "profile_like"
+    t.string "owner_name"
+    t.integer "owner_age"
   end
 
   create_table "main_user_profiles", force: :cascade do |t|

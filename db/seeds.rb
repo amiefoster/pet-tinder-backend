@@ -16,7 +16,8 @@ puts "Fetching some puppers 🐕 "
     owner_name= Faker::Name.first_name 
     owner_age= rand(20..40)
     owner_hobby= Faker::Hobby.activity
-    image_url= Faker::LoremFlickr.image(size: "300x300", search_terms: ['dog'])
+    image_url= "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*"
+    #Faker::LoremFlickr.image(size: "300x300", search_terms: ['dog'])
     # image_dim_1= rand(300..400)
     # image_dim_2= rand(300..400)
     # image_url="https://loremflickr.com/#{image_dim_1}/#{image_dim_2}/dog"
@@ -45,7 +46,8 @@ puts "Begging some cats to join us on the couch 🐈 "
     owner_name= Faker::Name.first_name 
     owner_age= rand(20..40)
     owner_hobby= Faker::Hobby.activity
-    image_url= Faker::LoremFlickr.image(size: "300x300", search_terms: ['cat'])
+    image_url= "https://images.unsplash.com/photo-1615807713086-bfc4975801d0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0JTIwZmFjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+    #Faker::LoremFlickr.image(size: "300x300", search_terms: ['cat'])
     # image_dim_1= rand(300..400)
     # image_dim_2= rand(300..400)
     # image_url="https://loremflickr.com/#{image_dim_1}/#{image_dim_2}/cat"

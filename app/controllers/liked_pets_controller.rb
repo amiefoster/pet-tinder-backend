@@ -5,7 +5,7 @@ class LikedPetsController < Sinatra::Base
     get '/mutuallikes' do 
       likedPets = MainUserProfile.first.pet_profiles
       truePetLikes = PetProfile.where("profile_like = '1'")
-        mutualLikes = likedPets & truePetLikes 
+      mutualLikes = likedPets & truePetLikes 
       mutualLikes.to_json
 
     end

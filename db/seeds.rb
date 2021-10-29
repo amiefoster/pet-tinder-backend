@@ -192,32 +192,32 @@ twentyFive.update(image_url: "ttps://vetstreet-brightspot.s3.amazonaws.com/c6/d0
 # fortyOne = PetProfile.find(41)
 # fortyOne.update(image_url=)
 
-# fortyTwo = PetProfile.find(42)
-# fortyTwo.update(image_url=)
+fortyTwo = PetProfile.find(42)
+fortyTwo.update(image_url=)
 
-# fortyThree = PetProfile.find(43)
-# fortyThree.update(image_url=)
+fortyThree = PetProfile.find(43)
+fortyThree.update(image_url:"https://images2.minutemediacdn.com/image/upload/c_crop,h_1350,w_2400,x_0,y_59/v1628778532/shape/mentalfloss/87226-gettyimages-1247734973.jpg?itok=qBoDBIYv")
 
-# fortyFour = PetProfile.find(44)
-# fortyFour.update(image_url=)
+fortyFour = PetProfile.find(44)
+fortyFour.update(image_url:"https://media-be.chewy.com/wp-content/uploads/2016/09/01160419/black-cat-1-1330x711.jpg")
 
-# fortyFive = PetProfile.find(45)
-# fortyFive.update(image_url=)
+fortyFive = PetProfile.find(45)
+fortyFive.update(image_url:"https://www.thesprucepets.com/thmb/bQOVEZj0UFxFyh4K9RmoDtUciEQ=/1333x1000/smart/filters:no_upscale()/GettyImages-528925876-b27e1609b74e43eaa56d5a2b8bdc1064.jpg")
 
-# fortySix = PetProfile.find(46)
-# fortySix.update(image_url=)
+fortySix = PetProfile.find(46)
+fortySix.update(image_url:"https://ca-times.brightspotcdn.com/dims4/default/ebba14e/2147483647/strip/true/crop/1611x906+0+0/resize/1486x836!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ffd%2Fef%2F05c1aab3e76c3d902aa0548c0046%2Fla-la-hm-pet-issue-18-jpg-20150615")
 
-# fortySeven = PetProfile.find(47)
-# fortySeven.update(image_url=)
+fortySeven = PetProfile.find(47)
+fortySeven.update(image_url=)
 
-# fortyEight = PetProfile.find(48)
-# fortyEight.update(image_url=)
+fortyEight = PetProfile.find(48)
+fortyEight.update(image_url:"https://www.familyhandyman.com/wp-content/uploads/2020/10/cat-unicorn-costume-GettyImages-1125152183.jpg?fit=696,696")
 
-# fortyNine = PetProfile.find(49)
-# fortyNine.update(image_url=)
+fortyNine = PetProfile.find(49)
+fortyNine.update(image_url: "https://icatcare.org/app/uploads/2018/10/Siamese.png")
 
-# fifty = PetProfile.find(50)
-# fifty.update(image_url=)
+fifty = PetProfile.find(50)
+fifty.update(image_url: "https://images.unsplash.com/photo-1594318142972-1e2ea7487a3e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YW5ncnklMjBjYXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80")
 
 
 

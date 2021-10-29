@@ -168,32 +168,32 @@ twentyFive.update(image_url: "ttps://vetstreet-brightspot.s3.amazonaws.com/c6/d0
 # thirtyThree = PetProfile.find(33)
 # thirtyThree.update(image_url=)
 
-# thirtyFour = PetProfile.find(34)
-# one.update(image_url=)
+thirtyFour = PetProfile.find(34)
+one.update(image_url:"https://th-thumbnailer.cdn-si-edu.com/bZAar59Bdm95b057iESytYmmAjI=/1400x1050/filters:focal(594x274:595x275)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/95/db/95db799b-fddf-4fde-91f3-77024442b92d/egypt_kitty_social.jpg")
 
-# thirtyFive = PetProfile.find(35)
-# thirtyFive.update(image_url=)
+thirtyFive = PetProfile.find(35)
+thirtyFive.update(image_url:"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-cat-wearing-sunglasses-while-sitting-royalty-free-image-1571755145.jpg")
 
-# thirtySix = PetProfile.find(36)
-# thirtySix.update(image_url=)
+thirtySix = PetProfile.find(36)
+thirtySix.update(image_url:"https://ychef.files.bbci.co.uk/976x549/p07ryyyj.jpg")
 
-# thirtySeven = PetProfile.find(37)
-# thirtySeven.update(image_url=)
+thirtySeven = PetProfile.find(37)
+thirtySeven.update(image_url:"https://images.indianexpress.com/2020/12/indonesia-cat-fashion.jpg")
 
-# thirtyEight = PetProfile.find(38)
-# thirtyEight.update(image_url=)
+thirtyEight = PetProfile.find(38)
+thirtyEight.update(image_url:"https://www.statnews.com/wp-content/uploads/2020/05/GettyImages-513859318.jpg")
 
-# thirtyNine = PetProfile.find(39)
-# thirtyNine.update(image_url=)
+thirtyNine = PetProfile.find(39)
+thirtyNine.update(image_url:"https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=%5B940%2C906%5D&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2020%2F06%2F26%2Fblack-cat-peeking-over-table-908714708-2000.jpg")
 
-# forty = PetProfile.find(40)
-# forty.update(image_url=)
+forty = PetProfile.find(40)
+forty.update(image_url:"https://www.treehugger.com/thmb/hEQ8EOu46n6aNUrFM79cCQPu7CI=/735x0/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2011__12__Maru_0-ccf5461456474597abfc05c98670df83.jpg")
 
-# fortyOne = PetProfile.find(41)
-# fortyOne.update(image_url=)
+fortyOne = PetProfile.find(41)
+fortyOne.update(image_url:"https://images.all-free-download.com/images/graphiclarge/walking_sand_cat_516744.jpg")
 
-# fortyTwo = PetProfile.find(42)
-# fortyTwo.update(image_url=)
+fortyTwo = PetProfile.find(42)
+fortyTwo.update(image_url:"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/funny-cat-captions-1563551842.jpg")
 
 # fortyThree = PetProfile.find(43)
 # fortyThree.update(image_url=)

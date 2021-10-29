@@ -208,7 +208,7 @@ fortySix = PetProfile.find(46)
 fortySix.update(image_url:"https://ca-times.brightspotcdn.com/dims4/default/ebba14e/2147483647/strip/true/crop/1611x906+0+0/resize/1486x836!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ffd%2Fef%2F05c1aab3e76c3d902aa0548c0046%2Fla-la-hm-pet-issue-18-jpg-20150615")
 
 fortySeven = PetProfile.find(47)
-fortySeven.update(image_url=)
+fortySeven.update(image_url:"https://www.petguide.com/wp-content/uploads/2015/08/miniature-cats.jpg")
 
 fortyEight = PetProfile.find(48)
 fortyEight.update(image_url:"https://www.familyhandyman.com/wp-content/uploads/2020/10/cat-unicorn-costume-GettyImages-1125152183.jpg?fit=696,696")

@@ -144,29 +144,29 @@ twentyFour.update(image_url: "https://i.pinimg.com/736x/01/78/9d/01789d31a4df961
 twentyFive = PetProfile.find(25)
 twentyFive.update(image_url: "ttps://vetstreet-brightspot.s3.amazonaws.com/c6/d03610a8a111e0a0d50050568d634f/file/otterhound-3-645mk070411.jpg")
 
-# twentySix = PetProfile.find(26)
-# twentySix.update(image_url=)
+twentySix = PetProfile.find(26)
+twentySix.update(image_url: "https://images.freeimages.com/images/large-previews/b0d/ziggy-the-cat-1400927.jpg")
 
-# twentySeven = PetProfile.find(27)
-# twentySeven.update(image_url=)
+twentySeven = PetProfile.find(27)
+twentySeven.update(image_url:"https://images.freeimages.com/images/large-previews/f9a/cat-1-1566138.jpg")
 
-# twentyEight = PetProfile.find(28)
-# twentyEight.update(image_url=)
+twentyEight = PetProfile.find(28)
+twentyEight.update(image_url:"https://images.freeimages.com/images/large-previews/f75/siamese-cat-1311961.jpg")
 
-# twentyNine = PetProfile.find(29)
-# twentyNine.update(image_url=)
+twentyNine = PetProfile.find(29)
+twentyNine.update(image_url: "https://images.freeimages.com/images/large-previews/5af/cat-1377061.jpg")
 
-# thirty = PetProfile.find(30)
-# thirty.update(image_url=)
+thirty = PetProfile.find(30)
+thirty.update(image_url: "https://images.freeimages.com/images/large-previews/563/cat-1378752.jpg")
 
-# thirtyOne = PetProfile.find(31)
-# one.update(image_url=)
+thirtyOne = PetProfile.find(31)
+one.update(image_url:"https://images.freeimages.com/images/large-previews/13e/my-cat-1363423.jpg")
 
-# thirtyTwo = PetProfile.find(32)
-# thirtyTwo.update(image_url=)
+thirtyTwo = PetProfile.find(32)
+thirtyTwo.update(image_url:"https://images.freeimages.com/images/large-previews/9e4/cat-1384307.jpg")
 
-# thirtyThree = PetProfile.find(33)
-# thirtyThree.update(image_url=)
+thirtyThree = PetProfile.find(33)
+thirtyThree.update(image_url:"https://images.freeimages.com/images/large-previews/c22/cat-1395746.jpg")
 
 # thirtyFour = PetProfile.find(34)
 # one.update(image_url=)

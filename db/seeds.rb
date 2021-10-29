@@ -192,8 +192,8 @@ thirtyThree.update(image_url:"https://images.freeimages.com/images/large-preview
 # fortyOne = PetProfile.find(41)
 # fortyOne.update(image_url=)
 
-fortyTwo = PetProfile.find(42)
-fortyTwo.update(image_url=)
+# fortyTwo = PetProfile.find(42)
+# fortyTwo.update(image_url=)
 
 fortyThree = PetProfile.find(43)
 fortyThree.update(image_url:"https://images2.minutemediacdn.com/image/upload/c_crop,h_1350,w_2400,x_0,y_59/v1628778532/shape/mentalfloss/87226-gettyimages-1247734973.jpg?itok=qBoDBIYv")

@@ -202,7 +202,7 @@ fortyFour = PetProfile.find(44)
 fortyFour.update(image_url:"https://media-be.chewy.com/wp-content/uploads/2016/09/01160419/black-cat-1-1330x711.jpg")
 
 fortyFive = PetProfile.find(45)
-fortyFive.update(image_url:"https://www.thesprucepets.com/thmb/bQOVEZj0UFxFyh4K9RmoDtUciEQ=/1333x1000/smart/filters:no_upscale()/GettyImages-528925876-b27e1609b74e43eaa56d5a2b8bdc1064.jpg")
+fortyFive.update(image_url:"https://www.telegraph.co.uk/content/dam/Pets/spark/pets-at-home-2017/kitten-playing-with-feather-toy-xlarge.jpg")
 
 fortySix = PetProfile.find(46)
 fortySix.update(image_url:"https://ca-times.brightspotcdn.com/dims4/default/ebba14e/2147483647/strip/true/crop/1611x906+0+0/resize/1486x836!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ffd%2Fef%2F05c1aab3e76c3d902aa0548c0046%2Fla-la-hm-pet-issue-18-jpg-20150615")
@@ -218,10 +218,6 @@ fortyNine.update(image_url: "https://icatcare.org/app/uploads/2018/10/Siamese.pn
 
 fifty = PetProfile.find(50)
 fifty.update(image_url: "https://images.unsplash.com/photo-1594318142972-1e2ea7487a3e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YW5ncnklMjBjYXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80")
-
-
-
-
 
 
 puts "creating the lucky single user"
